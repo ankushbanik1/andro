@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FormsActivity"
+        android:padding="10dp" android:orientation="vertical">
+
+
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+    android:id="@+id/radiogrp1"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:text="Gender"
+    />
+    <RadioButton android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="male"
+                 android:id="@+id/rediobtn1"/>
+    <RadioButton android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="female"
+                 android:id="@+id/rediobtn2"/>
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:text="Language known"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_marginStart="10dp" android:layout_marginLeft="10dp">
+        <CheckBox android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="hindi"
+        android:id="@+id/checkbox0"/>
+        <CheckBox android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="French"
+                  android:id="@+id/checkbox1"/>
+        <CheckBox android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="English"
+                  android:id="@+id/checkbox2"/>
+        <CheckBox android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="bangla"
+                  android:id="@+id/checkbox3"/>
+        <Button
+                android:text="Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btn2"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/textview1"
+        />
+
+    </LinearLayout>
+
+
+    />
+</LinearLayout>

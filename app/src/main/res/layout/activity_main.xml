@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:id="@+id/relativeLayout"
+android:padding="10dp">
+
+    <Button
+            android:text="show tost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button2" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="536dp" android:layout_marginLeft="152dp" android:layout_marginStart="152dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:inputType="textPersonName"
+            android:hint="Enter your massage"
+            android:id="@+id/editTeext" tools:layout_editor_absoluteY="151dp" tools:layout_editor_absoluteX="72dp"/>
+    android:ems="10"
+    tools:layout_editor_absoluteY="309dp" tools:layout_editor_absoluteX="99dp" android:id="@+id/usermsg"/>
+    <Button
+            android:text="Button"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnuser"
+            tools:layout_editor_absoluteY="236dp" tools:layout_editor_absoluteX="104dp"/>
+</android.support.constraint.ConstraintLayout>
