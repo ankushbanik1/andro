@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="About us"
+
+android:id="@+id/about"/>
+
+    <item android:title="Help"
+          android:icon="@mipmap/ic_launcher"
+          app:showAsAction="always"
+
+          android:id="@+id/help"/>
+<group
+    android:id="@+id/group1">
+
+    <item android:title="Item 1"
+          android:id="@+id/item1"/>
+
+    <item android:title="Item 2"
+          android:id="@+id/item2"/>
+
+    <item android:title="Item 3"
+          android:id="@+id/item3"/>
+</group>
+
+</menu>
